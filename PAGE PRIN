@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Canela Store | Enlaces Directos</title>
+  <!-- Íconos de FontAwesome para Instagram, WhatsApp, TikTok y Catálogo -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      /* Fondo con degradado elegante de Gris Silver Oscuro a Azul Aguamarina Profundo */
+      background: linear-gradient(135deg, #1e293b 0%, #0f172a 50%, #083344 100%);
+      color: #e2e8f0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px 16px;
+    }
+
+    .card-container {
+      width: 100%;
+      max-width: 420px; /* Tamaño perfecto para pantallas móviles */
+      text-align: center;
+      background: rgba(30, 41, 59, 0.7);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(226, 232, 240, 0.15);
+      border-radius: 24px;
+      padding: 32px 20px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    /* Espacio para el Logo */
+    .logo-wrapper {
+      margin: 0 auto 16px auto;
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      padding: 4px;
+      background: linear-gradient(135deg, #06b6d4, #cbd5e1);
+      box-shadow: 0 0 20px rgba(6, 182, 212, 0.3);
+    }
+
+    .logo-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+      background-color: #0f172a;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      color: #f8fafc;
+      margin-bottom: 6px;
+    }
+
+    p.subtitle {
+      font-size: 0.9rem;
+      color: #cbd5e1;
+      margin-bottom: 28px;
+      font-weight: 400;
+    }
+
+    /* Botones de Redes Sociales */
+    .links-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .btn-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      width: 100%;
+      padding: 16px 20px;
+      border-radius: 14px;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #0f172a;
+      /* Fondo en Aguamarina brillante */
+      background: linear-gradient(90deg, #06b6d4 0%, #22d3ee 100%);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 0 4px 15px rgba(6, 182, 212, 0.25);
+      transition: all 0.2s ease-in-out;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    /* Efecto al presionar en celular */
+    .btn-link:active {
+      transform: scale(0.98);
+      box-shadow: 0 2px 8px rgba(6, 182, 212, 0.4);
+    }
+
+    /* Estilo especial para el botón del Catálogo en Gris Silver */
+    .btn-link.catalog {
+      background: linear-gradient(90deg, #e2e8f0 0%, #94a3b8 100%);
+      color: #0f172a;
+      box-shadow: 0 4px 15px rgba(226, 232, 240, 0.2);
+    }
+
+    .btn-link i {
+      font-size: 1.25rem;
+    }
+
+    footer {
+      margin-top: 28px;
+      font-size: 0.75rem;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card-container">
+    <!-- ESPACIO PARA TU LOGO -->
+    <div class="logo-wrapper">
+      <!-- Cambia 'logo.png' por la imagen o link de tu logo -->
+      <img src="https://via.placeholder.com/150/0f172a/06b6d4?text=CANELA" alt="Logo Canela Store" class="logo-img">
+    </div>
+
+    <h1>Canela Store</h1>
+    <p class="subtitle">Tienda de Calzado & Moda Urbana</p>
+
+    <!-- LISTA DE ACCESOS DIRECTOS -->
+    <div class="links-list">
+      
+      <!-- BOTÓN DEL CATÁLOGO PDF -->
+      <a href="TU_LINK_DEL_PDF_AQUI.pdf" target="_blank" class="btn-link catalog">
+        <i class="fa-solid fa-file-pdf">
+        Ver Catálogo PDF
+      </a>
+
+      <!-- WHATSAPP -->
+      <a href="https://wa.me/573000000000?text=Hola,%20quiero%20más%20información" target="_blank" class="btn-link">
+        <i class="fa-brands fa-whatsapp">
+        Escribir a WhatsApp
+      </a>
+
+      <!-- INSTAGRAM -->
+      <a href="https://instagram.com/tu_usuario" target="_blank" class="btn-link">
+        <i class="fa-brands fa-instagram">
+        Síguenos en Instagram
+      </a>
+
+      <!-- TIKTOK -->
+      <a href="https://tiktok.com/@tu_usuario" target="_blank" class="btn-link">
+        <i class="fa-brands fa-tiktok">
+        Síguenos en TikTok
+      </a>
+
+    </div>
+
+    <footer>
+      © Canela Store • Todos los derechos reservados
+    </footer>
+  </div>
+
+</body>
+</html>
