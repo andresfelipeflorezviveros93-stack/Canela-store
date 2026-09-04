@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -249,6 +250,12 @@
             white-space: nowrap;
         }
 
+        .badge-tag-warning {
+            background: rgba(239, 68, 68, 0.15);
+            color: #fca5a5;
+            border: 1px solid rgba(239, 68, 68, 0.4);
+        }
+
         /* SPECIFIC BUTTON STYLES */
         .btn-fast-credit {
             background: linear-gradient(135deg, rgba(212, 175, 55, 0.2) 0%, rgba(15, 23, 42, 0.8) 100%);
@@ -352,6 +359,23 @@
 
             </nav>
 
+            <!-- CATÁLOGO PRINCIPAL (ANDROID) -->
+            <div class="section-label">⭐ Catálogo Principal</div>
+            <nav class="links-container">
+                <a href="catalogo-android.pdf" target="_blank" class="btn-link btn-catalog">
+                    <div class="btn-content">
+                        <span class="btn-icon">
+                            <svg viewBox="0 0 24 24"><path d="M6 18c0 .55.45 1 1 1h1v3c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-3h2v3c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-3h1c.55 0 1-.45 1-1V8H6v10zM3.5 8C2.67 8 2 8.67 2 9.5v7c0 .83.67 1.5 1.5 1.5S5 17.33 5 16.5v-7C5 8.67 4.33 8 3.5 8zm17 0c-.83 0-1.5.67-1.5 1.5v7c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5v-7c0-.83-.67-1.5-1.5-1.5z"/></svg>
+                        </span>
+                        <div>
+                            <span class="btn-title">Catálogo Android</span>
+                            <span class="btn-sub">🚚 Envíos a nivel nacional • Samsung, Xiaomi, Oppo, Tecno</span>
+                        </div>
+                    </div>
+                </a>
+            </nav>
+
+            <!-- OTROS CATÁLOGOS DISPONIBLES -->
             <div class="section-label">📱 Catálogos Disponibles</div>
             <nav class="links-container">
                 
@@ -365,18 +389,7 @@
                             <span class="btn-sub">Nuevos y Seminuevos garantizados</span>
                         </div>
                     </div>
-                </a>
-
-                <a href="catalogo-android.pdf" target="_blank" class="btn-link btn-catalog">
-                    <div class="btn-content">
-                        <span class="btn-icon">
-                            <svg viewBox="0 0 24 24"><path d="M6 18c0 .55.45 1 1 1h1v3c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-3h2v3c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-3h1c.55 0 1-.45 1-1V8H6v10zM3.5 8C2.67 8 2 8.67 2 9.5v7c0 .83.67 1.5 1.5 1.5S5 17.33 5 16.5v-7C5 8.67 4.33 8 3.5 8zm17 0c-.83 0-1.5.67-1.5 1.5v7c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5v-7c0-.83-.67-1.5-1.5-1.5z"/></svg>
-                        </span>
-                        <div>
-                            <span class="btn-title">Catálogo Android</span>
-                            <span class="btn-sub">Samsung, Xiaomi, Oppo, Tecno y más</span>
-                        </div>
-                    </div>
+                    <span class="badge-tag badge-tag-warning">Punto Físico</span>
                 </a>
 
                 <a href="catalogo-tecnologia.pdf" target="_blank" class="btn-link btn-catalog">
@@ -422,4 +435,8 @@
     </main>
 
     <a href="https://wa.me/573157044653?text=Hola%20Canela%20Store,%20quiero%20m%C3%A1s%20informaci%C3%B3n." target="_blank" class="fab-whatsapp" aria-label="Contacto por WhatsApp">
-        <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12
+        <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 16.63c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.32a8.188 8.188 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.183 8.183 0 0 1 2.41 5.83c.02 4.54-3.68 8.24-8.22 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.15.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.15-.25-.02-.38.1-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.42.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.12.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.44.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.1-.23-.16-.48-.28z"/></svg>
+    </a>
+
+</body>
+</html>
